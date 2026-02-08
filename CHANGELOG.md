@@ -1,5 +1,10 @@
 # Changelog
 
+
+
+
+
+
 ## Release (2026-01-14)
 
 ember-vite-codemod 1.4.1 (patch)
