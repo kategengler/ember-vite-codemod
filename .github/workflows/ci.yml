@@ -111,6 +111,8 @@ jobs:
   notify:
     name: Notify Discord
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     needs: [lint, test-lib, test]
     if: failure() && github.event_name == 'schedule'
     steps:
